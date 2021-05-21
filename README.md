@@ -2,7 +2,7 @@
 
 I couldn't fix the audio fade-in issue on Windows in a decent way.  
 So here is an ad-hoc solution to the issue.  
-This program continuously make silent audio signal so that the audio driver will never become the idle state.
+This program continuously generates silent audio signal so that the audio driver will never become the idle state.
 
 ```cs
 using System;
